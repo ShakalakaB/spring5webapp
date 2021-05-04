@@ -41,7 +41,7 @@ public class BootStrapData implements CommandLineRunner {
         authroRepository.save(eric);
         publisherRepository.save(publisher);
 
-        System.out.println("numbers of books: " + bookRepository.count());
-        System.out.println("numbers of publisher: " + publisherRepository.count());
+//        System.out.println("numbers of books: " + bookRepository.count());
+//        System.out.println("numbers of publisher: " + publisherRepository.count());
     }
 }
